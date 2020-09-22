@@ -1,0 +1,21 @@
+{% if is_authenticated %}
+  {% extends "base_templates/dashboard_base.html" %}
+
+  {% block title %}
+  Page non trouvée
+  {% endblock %}
+
+  {% block content %}
+  <!-- 404 Error Text -->
+  <div class="text-center mt-4">
+    <div class="error mx-auto" data-text="404">404</div>
+    <p class="lead text-gray-800 mb-5">Page non trouvée</p>
+    <p class="text-gray-500 mb-0">Il semble que vous ayez trouvé un problème dans la matrice ...</p>
+    <a href="/dashboard">&larr; Retour à la reconnaissance faciale</a>
+  </div>
+  {% endblock %}
+{% else %}
+<h1>{{ message }}</h1>
+<a href="/"><h2>Retour à la page d'accueil</h2></a>
+<pre>{{ stacktrace }}</pre>
+{% endif %}
