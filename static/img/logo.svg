@@ -1,0 +1,11 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="background:transparent;cursor:pointer" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox='15 0 45 35'
+ width='100' height='85'>
+<g fill="none">
+<g shape-rendering="auto" fill="none" stroke-width="2.4" stroke="#3cabff">
+<path d=" M15,0  C17.0001,0.0002 21.3998,15 25,15 C28.6002,15 33,-0.0002 33,0 C33,0.0002 22.5999,34.9998 25,35 C27.4001,35.0002 39.1997,15.0002 45,15 C50.8003,14.9998 50.9999,15 54,15 C57.0002,15 58.7999,15 60,15"></path>
+</g>
+<g shape-rendering="auto" fill="none" stroke-width="2.4" stroke="#ddd">
+<path d=" M40,2  C43.0002,2 55,1.9998 55,2 C55,2.0002 39,23.9998 40,24 C41,24.0002 55.9998,24 60,24"></path>
+</g>
+</g>
+</svg>

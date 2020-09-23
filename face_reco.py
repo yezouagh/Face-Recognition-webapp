@@ -17,9 +17,9 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 class VideoCamera(object):
     def __init__(self):
 
-        self.sender_email = 'doha.covidapp@gmail.com'
-        self.receiver_email = 'dchbari@gmail.com'
-        self.password = 'myapplication.'
+        self.sender_email = 'sender_email'
+        self.receiver_email = 'receiver_email'
+        self.password = 'sender_email_password'
 
         self.message = MIMEMultipart("alternative")
         self.message["Subject"] = "Alert: A New Person Entered the Premises"
